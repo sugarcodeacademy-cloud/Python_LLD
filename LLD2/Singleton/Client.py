@@ -1,4 +1,4 @@
-from LLD2.Singleton.Problem1 import Database
+from LLD2.Singleton.Problem2 import Database
 
 # db1 = Database.create_instance()
 # db2 = Database.create_instance()
