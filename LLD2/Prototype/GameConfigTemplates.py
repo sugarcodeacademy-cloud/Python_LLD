@@ -11,8 +11,8 @@ class GameConfigTemplates:
             zombie_mode = GameConfig("ZombieLand", "2.1.3", 10, ["AWM","M16", "AKM"], "Cloudy", 100, "Asia")
 
             game_config_register = GameConfigRegistry()
-            game_config_register.add_template(GameConfigType.BRERANGEL, erangel_template)
-            game_config_register.add_template(GameConfigType.BRMIRAMAR, miramar_template)
+            game_config_register.add_template(GameConfigType.BR_ERANGEL, erangel_template)
+            game_config_register.add_template(GameConfigType.BR_MIRAMAR, miramar_template)
             game_config_register.add_template(GameConfigType.RANKED_ERANGEL, ranked_erangel)
             game_config_register.add_template(GameConfigType.RANKED_MIRAMAR, ranked_miramar)
             game_config_register.add_template(GameConfigType.ZOMBIE_MODE, zombie_mode)

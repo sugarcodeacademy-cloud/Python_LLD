@@ -36,8 +36,8 @@ Problems with above approach
 
 register = GameConfigTemplates.load_templates()
 
-erangel_battle_royale: GameConfig = register.get_template(GameConfigType.BRERANGEL).clone()
-miramar_battle_royale = register.get_template(GameConfigType.BRMIRAMAR).clone()
+erangel_battle_royale: GameConfig = register.get_template(GameConfigType.BR_ERANGEL).clone()
+miramar_battle_royale = register.get_template(GameConfigType.BR_MIRAMAR).clone()
 
 erangel_battle_royale.server_region = "Europe"
 print(erangel_battle_royale)
